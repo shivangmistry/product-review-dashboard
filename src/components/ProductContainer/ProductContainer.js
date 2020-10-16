@@ -19,12 +19,14 @@ function ProductContainer() {
 
   return (
     <div className="product-container">
-      <div className="container">
+      <div className="background-white container side-panel">
         <ProductDetails />
         <ProductTags />
         <Navbar setTab={setTab} selected={tab} />
       </div>
-      <div className="container">{productTabs[tab].component}</div>
+      <div className="background-white container main-panel">
+        {productTabs[tab].component}
+      </div>
     </div>
   );
 }

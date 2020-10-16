@@ -14,10 +14,22 @@ a:hover {
   text-decoration: underline;
 }
 
+.app-ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 .main {
   flex: 1 0 auto;
 }
 
 .container {
+  margin: 50px 10px;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px rgba(211, 211, 211, 0.5);
+}
+
+.background-white {
   background-color: #ffffff;
 }

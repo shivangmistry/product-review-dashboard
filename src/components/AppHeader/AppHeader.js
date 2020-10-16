@@ -4,7 +4,7 @@ import "./app-header.css";
 
 function AppHeader() {
   return (
-    <div className="container app-header">
+    <div className="background-white app-header">
       <Logo alt="Company logo" width="30px" height="30px" />
       <div className="header-title">Stackline</div>
     </div>

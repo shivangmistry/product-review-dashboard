@@ -5,7 +5,7 @@ import "./navbar.css";
 function Navbar(props) {
   return (
     <div className="navbar">
-      <ul className="navbar-ul">
+      <ul className="app-ul">
         {Object.keys(productTabs).map((tab) => {
           return (
             <li

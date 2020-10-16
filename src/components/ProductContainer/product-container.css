@@ -1,4 +1,12 @@
 .product-container {
-  margin: 50px 20px;
   display: flex;
+  flex-wrap: wrap;
+}
+
+.side-panel {
+  flex: 1;
+}
+
+.main-panel {
+  flex: 4;
 }

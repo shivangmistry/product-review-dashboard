@@ -1,0 +1,19 @@
+.product-details {
+  padding: 15px;
+}
+
+.product-image {
+  width: 125px;
+  height: 125px;
+}
+
+.product-title {
+  padding: 5px 0;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.product-subtitle {
+  padding: 5px 0;
+  color: grey;
+}

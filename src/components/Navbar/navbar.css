@@ -1,0 +1,33 @@
+.navbar-ul {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.navbar-li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-weight: 900;
+}
+
+.navbar-li:hover {
+  cursor: pointer;
+}
+
+.navbar-icon {
+  margin-top: 6px;
+  padding: 0 10px;
+}
+
+.tab-selected {
+  color: #1d3557;
+}
+
+.tab-selected .navbar-icon {
+  color: #64dfdf;
+}
+
+.tab-not-selected {
+  color: rgb(153, 153, 153);
+}

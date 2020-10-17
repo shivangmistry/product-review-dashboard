@@ -14,8 +14,7 @@ function SalesTable() {
   ];
 
   const addCommas = (num) => {
-    if (num !== undefined)
-      return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   };
 
   return (

@@ -1,12 +1,17 @@
-import React from "react";
-import SalesChart from "../SalesChart/SalesChart";
-import SalesTable from "../SalesTable/SalesTable";
+import React, { Suspense } from "react";
+import Loading from "../Loading/Loading";
+const SalesChart = React.lazy(() => import("../SalesChart/SalesChart"));
+const SalesTable = React.lazy(() => import("../SalesTable/SalesTable"));
 
 function ProductSales() {
   return (
     <div>
-      <SalesChart />
-      <SalesTable />
+      <Suspense fallback={Loading}>
+        <section>
+          <SalesChart />
+          <SalesTable />
+        </section>
+      </Suspense>
     </div>
   );
 }

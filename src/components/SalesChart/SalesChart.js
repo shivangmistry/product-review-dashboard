@@ -33,6 +33,7 @@ function SalesChart() {
       labels: {
         enabled: false,
       },
+      gridLineWidth: 0,
     },
     plotOptions: {
       series: {

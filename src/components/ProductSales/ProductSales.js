@@ -1,7 +1,14 @@
 import React from "react";
+import SalesChart from "../SalesChart/SalesChart";
+import SalesTable from "../SalesTable/SalesTable";
 
 function ProductSales() {
-  return <div>Product Sales</div>;
+  return (
+    <div>
+      <SalesChart />
+      <SalesTable />
+    </div>
+  );
 }
 
 export default ProductSales;

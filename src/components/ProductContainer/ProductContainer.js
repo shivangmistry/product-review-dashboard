@@ -24,9 +24,7 @@ function ProductContainer() {
         <ProductTags />
         <Navbar setTab={setTab} selected={tab} />
       </div>
-      <div className="background-white container main-panel">
-        {productTabs[tab].component}
-      </div>
+      <div className="main-panel">{productTabs[tab].component}</div>
     </div>
   );
 }

@@ -1,0 +1,25 @@
+.sales-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  text-align: right;
+}
+
+.table-icon {
+  position: absolute;
+  padding: 0 0 0 5px;
+}
+
+.sales-table td:first-child,
+.sales-table th:first-child {
+  text-align: left;
+}
+
+.sales-table th,
+.sales-table td {
+  padding: 15px 30px;
+}
+
+.sales-table td {
+  border-top: 0.5px solid rgba(200, 200, 200, 0.5);
+}

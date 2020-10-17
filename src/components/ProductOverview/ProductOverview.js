@@ -1,7 +1,7 @@
 import React from "react";
 
 function ProductOverview() {
-  return <div>Product Overview</div>;
+  return <div className="container background-white">Product Overview</div>;
 }
 
 export default ProductOverview;

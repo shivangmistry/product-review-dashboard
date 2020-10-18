@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Application available at: https://product-review-dashboard.herokuapp.com/
 
 ## Available Scripts
 

@@ -11,3 +11,9 @@
 .main-panel {
   flex: 4;
 }
+
+@media screen and (max-width: 720px) {
+  .product-container {
+    flex-direction: column;
+  }
+}

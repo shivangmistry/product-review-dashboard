@@ -17,7 +17,7 @@ function ProductContainer() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    // stroing data fetched from API in redux store
+    // storing data fetched from API in redux store
     dispatch(add_product(data[0]));
   });
 
